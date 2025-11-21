@@ -31,4 +31,11 @@ Este projeto mantém um site hospedado no Render Free Tier acordado 24/7, envian
 - O intervalo de ping é configurável pelo delay no código (`600000` ms = 10 minutos).
 - Este script mantém sites no Render Free Tier acordados evitando que entrem em sleep.
 
-# esp32-keepalive
+
+# 💡 Observações importantes:
+
+- Flash Frequency: 80 MHz é seguro para todos os módulos genéricos.
+
+- Upload Speed: 115200 garante que a IDE consiga enviar o código sem erros.
+
+- Partition Scheme: “Default 4MB with spiffs” funciona bem para projetos simples, como seu keepalive.
